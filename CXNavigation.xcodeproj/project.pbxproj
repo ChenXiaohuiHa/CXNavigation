@@ -25,6 +25,8 @@
 		C0A3BF392154CE6D00C4C6AF /* CXGradientThreeNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF382154CE6D00C4C6AF /* CXGradientThreeNavigationView.m */; };
 		C0A3BF3D2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF3C2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m */; };
 		C0A3BF412154E6F200C4C6AF /* CXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF402154E6F200C4C6AF /* CXTestViewController.m */; };
+		C0A3BF442155087700C4C6AF /* CXImageMoveOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF432155087700C4C6AF /* CXImageMoveOneViewController.m */; };
+		C0A3BF472155088300C4C6AF /* CXImageMoveTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF462155088300C4C6AF /* CXImageMoveTwoViewController.m */; };
 		C0DB407021534AF7006B49C3 /* CXAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DB406F21534AF7006B49C3 /* CXAnimatedTransitioning.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,10 @@
 		C0A3BF3C2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXNavigationImageMoveViewController.m; sourceTree = "<group>"; };
 		C0A3BF3F2154E6F200C4C6AF /* CXTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTestViewController.h; sourceTree = "<group>"; };
 		C0A3BF402154E6F200C4C6AF /* CXTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTestViewController.m; sourceTree = "<group>"; };
+		C0A3BF422155087700C4C6AF /* CXImageMoveOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXImageMoveOneViewController.h; sourceTree = "<group>"; };
+		C0A3BF432155087700C4C6AF /* CXImageMoveOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXImageMoveOneViewController.m; sourceTree = "<group>"; };
+		C0A3BF452155088300C4C6AF /* CXImageMoveTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXImageMoveTwoViewController.h; sourceTree = "<group>"; };
+		C0A3BF462155088300C4C6AF /* CXImageMoveTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXImageMoveTwoViewController.m; sourceTree = "<group>"; };
 		C0DB406E21534AF7006B49C3 /* CXAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXAnimatedTransitioning.h; sourceTree = "<group>"; };
 		C0DB406F21534AF7006B49C3 /* CXAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXAnimatedTransitioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +187,10 @@
 			children = (
 				C0A3BF3B2154D39E00C4C6AF /* CXNavigationImageMoveViewController.h */,
 				C0A3BF3C2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m */,
+				C0A3BF422155087700C4C6AF /* CXImageMoveOneViewController.h */,
+				C0A3BF432155087700C4C6AF /* CXImageMoveOneViewController.m */,
+				C0A3BF452155088300C4C6AF /* CXImageMoveTwoViewController.h */,
+				C0A3BF462155088300C4C6AF /* CXImageMoveTwoViewController.m */,
 			);
 			path = "MoveImage(图片移动)";
 			sourceTree = "<group>";
@@ -277,7 +287,9 @@
 				C0A3BF362154CB8400C4C6AF /* CXGradientThreeViewController.m in Sources */,
 				C0A3BF322154CA9E00C4C6AF /* CXGradientTwoViewController.m in Sources */,
 				C0A3BF2F2154CA8F00C4C6AF /* CXGradientOneViewController.m in Sources */,
+				C0A3BF472155088300C4C6AF /* CXImageMoveTwoViewController.m in Sources */,
 				C019582A214F84C80076729D /* AppDelegate.m in Sources */,
+				C0A3BF442155087700C4C6AF /* CXImageMoveOneViewController.m in Sources */,
 				C0A3BF2C2154C5BE00C4C6AF /* CXNavigationGradientViewController.m in Sources */,
 				C0DB407021534AF7006B49C3 /* CXAnimatedTransitioning.m in Sources */,
 			);

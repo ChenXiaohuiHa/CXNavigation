@@ -23,7 +23,7 @@
     self.navigationItem.title = @"CustomNUsing";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _dataArray = @[@"透明度渐变",@"表头+导航 view 的头像动画"];
+    _dataArray = @[@"透明度渐变",@"导航图片变换"];
     [self loadTableView];
 }
 - (void)loadTableView {
