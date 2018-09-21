@@ -12,6 +12,7 @@
 #import "CXAnimatedTransitionsViewController.h"
 //
 #import "CXBaseNavigationController.h"//基本导航
+#import "CXAnimatedTransitionsNavigationController.h"//导航动画
 @interface CXTabBarController ()
 
 @end
@@ -41,7 +42,7 @@
     
     //第三个页面
     CXAnimatedTransitionsViewController *threeVC = [[CXAnimatedTransitionsViewController alloc] init];
-    UINavigationController *threeNav = [[UINavigationController alloc] initWithRootViewController:threeVC];
+    CXAnimatedTransitionsNavigationController *threeNav = [[CXAnimatedTransitionsNavigationController alloc] initWithRootViewController:threeVC];
     threeNav.tabBarItem = [self setTabBarItemWithTitle:@"AnimatedTransitions" titleColor:titleColor image:@"tab_my" selectedImage:@"tab_my_Click"];
     
     //添加 VC 数组, 设置 tabBar

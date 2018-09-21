@@ -22,6 +22,9 @@
     self.navigationItem.title = @"BaseUsing";
     self.view.backgroundColor = [UIColor whiteColor];
     
+    if (@available(iOS 11.0, *)) {
+        self.navigationController.navigationBar.prefersLargeTitles = YES;
+    }
     _dataArray = @[@"是否使用半透明导航栏",@"导航栏风格",@"设置导航栏内容颜色",@"设置导航栏背景颜色",@"设置导航栏背景图片"];
     [self loadNav];
     [self loadTableView];

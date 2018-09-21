@@ -1,23 +1,21 @@
 //
-//  OneViewController.m
-//  Navigation(导航)
+//  CXNavigationImageMoveViewController.m
+//  CXNavigation
 //
-//  Created by 陈晓辉 on 2018/9/1.
+//  Created by 陈晓辉 on 2018/9/21.
 //  Copyright © 2018年 陈晓辉. All rights reserved.
 //
 
-#import "CXCustomTwoViewController.h"
+#import "CXNavigationImageMoveViewController.h"
 #import "UIView+Extension.h"
 
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-
 #define headImgWidth 55
-@interface CXCustomTwoViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@interface CXNavigationImageMoveViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
-@implementation CXCustomTwoViewController {
+@implementation CXNavigationImageMoveViewController {
     
     UIImageView *_headerImgView;//表头
     UIImageView *_bigImgView;//大图片
@@ -32,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"我的";
+    self.navigationItem.title = @"表头+导航 view 的头像动画";
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self loadTableView];
@@ -73,7 +71,7 @@
 //MARK: 创建 tableView
 - (void)loadTableView {
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
     tableView.rowHeight = 60;
@@ -93,7 +91,7 @@
 //MARK: tableView 表头视图
 - (UIImageView *)headerImgView {
     
-    _headerImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 145)];
+    _headerImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 145)];
     _headerImgView.image = [UIImage imageNamed:@"headBg"];
     
     //头像
@@ -200,6 +198,5 @@
         _titleLabel.alpha = 1 - offsetY/_needMoveY;
     }
 }
-
 
 @end

@@ -1,29 +1,29 @@
 //
-//  CXCustomOneViewController.m
-//  Navigation(导航)
+//  CXGradientTwoViewController.m
+//  CXNavigation
 //
-//  Created by 陈晓辉 on 2018/9/16.
+//  Created by 陈晓辉 on 2018/9/21.
 //  Copyright © 2018年 陈晓辉. All rights reserved.
 //
 
-#import "CXCustomOneViewController.h"
+#import "CXGradientTwoViewController.h"
 
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define HeaderView_Height 150.f //表头高度
 
-@interface CXCustomOneViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface CXGradientTwoViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
-@implementation CXCustomOneViewController {
+@implementation CXGradientTwoViewController
+
+{
     UIView *_navView;//导航 view
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"透明度渐变";
+    self.navigationItem.title = @"透明度渐变(一)";
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self loadTableView];
@@ -49,7 +49,7 @@
     titleLab.bounds = CGRectMake(0, 0, 100, 44);
     titleLab.textAlignment = NSTextAlignmentCenter;
     titleLab.text = @"半夏";
-//    [titleLab sizeToFit];
+    //    [titleLab sizeToFit];
     [_navView addSubview:titleLab];
 }
 #pragma mark ---------- tableView ----------

@@ -1,29 +1,30 @@
 //
-//  CXAnimatedTransitionsViewController.m
-//  Navigation(导航)
+//  CXNavigationGradientViewController.m
+//  CXNavigation
 //
-//  Created by 陈晓辉 on 2018/8/30.
+//  Created by 陈晓辉 on 2018/9/21.
 //  Copyright © 2018年 陈晓辉. All rights reserved.
 //
 
-#import "CXAnimatedTransitionsViewController.h"
-#import "CXAnimatedTransitionsNavigationController.h"
-#import "CXTestViewController.h"
-@interface CXAnimatedTransitionsViewController ()<UITableViewDelegate,UITableViewDataSource>
+#import "CXNavigationGradientViewController.h"
+#import "CXGradientOneViewController.h"
+#import "CXGradientTwoViewController.h"
+#import "CXGradientThreeViewController.h"
+@interface CXNavigationGradientViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
-@implementation CXAnimatedTransitionsViewController{
+@implementation CXNavigationGradientViewController{
     NSArray *_dataArray;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"AnimatedTransitions";
+    self.navigationItem.title = @"透明度渐变";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _dataArray = @[@"Normal",@"FromTop",@"3DTransition"];
+    _dataArray = @[@"透明度渐变(一)",@"透明度渐变(二)",@"透明度渐变(三)"];
     [self loadTableView];
 }
 
@@ -60,15 +61,25 @@
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    CXAnimatedTransitionsNavigationController *nvc = (CXAnimatedTransitionsNavigationController *)self.navigationController;
-    nvc.animationType = (CX_AnimationType)indexPath.row;
-    //
-    CXTestViewController *vc = [CXTestViewController new];
-    
+    UIViewController *vc;
     vc.hidesBottomBarWhenPushed = YES;
+    switch (indexPath.row) {
+        case 0:
+            vc.hidesBottomBarWhenPushed = NO;
+            vc = [CXGradientOneViewController new];
+            break;
+        case 1:
+            vc = [CXGradientTwoViewController new];
+            break;
+        case 2:
+            vc = [CXGradientThreeViewController new];
+            break;
+            
+        default:
+            break;
+    }
     
-    
-    [nvc pushViewController:vc animated:YES];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

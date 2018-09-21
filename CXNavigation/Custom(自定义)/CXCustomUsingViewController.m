@@ -7,8 +7,8 @@
 //
 
 #import "CXCustomUsingViewController.h"
-#import "CXCustomOneViewController.h"
-#import "CXCustomTwoViewController.h"
+#import "CXNavigationGradientViewController.h"
+#import "CXNavigationImageMoveViewController.h"
 @interface CXCustomUsingViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
@@ -23,7 +23,7 @@
     self.navigationItem.title = @"CustomNUsing";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _dataArray = @[@"透明度渐变",@"tableView 表头+导航 view 的头像动画"];
+    _dataArray = @[@"透明度渐变",@"表头+导航 view 的头像动画"];
     [self loadTableView];
 }
 - (void)loadTableView {
@@ -60,13 +60,13 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     UIViewController *vc;
-    vc.hidesBottomBarWhenPushed = YES;
+    
     switch (indexPath.row) {
         case 0:
-            vc = [CXCustomOneViewController new];
+            vc = [CXNavigationGradientViewController new];
             break;
         case 1:
-            vc = [CXCustomTwoViewController new];
+            vc = [CXNavigationImageMoveViewController new];
             break;
             
         default:

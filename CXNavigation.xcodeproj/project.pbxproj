@@ -14,11 +14,18 @@
 		C0195856214F8C4F0076729D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195844214F8C4F0076729D /* UIView+Extension.m */; };
 		C0195857214F8C4F0076729D /* CXBaseUsingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195846214F8C4F0076729D /* CXBaseUsingViewController.m */; };
 		C0195858214F8C4F0076729D /* CXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195847214F8C4F0076729D /* CXBaseNavigationController.m */; };
-		C0195859214F8C4F0076729D /* CXCustomTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C019584C214F8C4F0076729D /* CXCustomTwoViewController.m */; };
-		C019585A214F8C4F0076729D /* CXCustomOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C019584D214F8C4F0076729D /* CXCustomOneViewController.m */; };
 		C019585B214F8C4F0076729D /* CXCustomUsingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195851214F8C4F0076729D /* CXCustomUsingViewController.m */; };
 		C019585C214F8C4F0076729D /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195852214F8C4F0076729D /* CXTabBarController.m */; };
 		C019585D214F8C4F0076729D /* CXAnimatedTransitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195854214F8C4F0076729D /* CXAnimatedTransitionsViewController.m */; };
+		C09CC79F2150FFA0000BFC5F /* CXAnimatedTransitionsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09CC79E2150FFA0000BFC5F /* CXAnimatedTransitionsNavigationController.m */; };
+		C0A3BF2C2154C5BE00C4C6AF /* CXNavigationGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF2B2154C5BE00C4C6AF /* CXNavigationGradientViewController.m */; };
+		C0A3BF2F2154CA8F00C4C6AF /* CXGradientOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF2E2154CA8F00C4C6AF /* CXGradientOneViewController.m */; };
+		C0A3BF322154CA9E00C4C6AF /* CXGradientTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF312154CA9E00C4C6AF /* CXGradientTwoViewController.m */; };
+		C0A3BF362154CB8400C4C6AF /* CXGradientThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF352154CB8400C4C6AF /* CXGradientThreeViewController.m */; };
+		C0A3BF392154CE6D00C4C6AF /* CXGradientThreeNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF382154CE6D00C4C6AF /* CXGradientThreeNavigationView.m */; };
+		C0A3BF3D2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF3C2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m */; };
+		C0A3BF412154E6F200C4C6AF /* CXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3BF402154E6F200C4C6AF /* CXTestViewController.m */; };
+		C0DB407021534AF7006B49C3 /* CXAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DB406F21534AF7006B49C3 /* CXAnimatedTransitioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,15 +43,29 @@
 		C0195848214F8C4F0076729D /* CXBaseUsingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXBaseUsingViewController.h; sourceTree = "<group>"; };
 		C0195849214F8C4F0076729D /* CXBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXBaseNavigationController.h; sourceTree = "<group>"; };
 		C019584A214F8C4F0076729D /* CXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarController.h; sourceTree = "<group>"; };
-		C019584C214F8C4F0076729D /* CXCustomTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCustomTwoViewController.m; sourceTree = "<group>"; };
-		C019584D214F8C4F0076729D /* CXCustomOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCustomOneViewController.m; sourceTree = "<group>"; };
 		C019584E214F8C4F0076729D /* CXCustomUsingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCustomUsingViewController.h; sourceTree = "<group>"; };
-		C019584F214F8C4F0076729D /* CXCustomTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCustomTwoViewController.h; sourceTree = "<group>"; };
-		C0195850214F8C4F0076729D /* CXCustomOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCustomOneViewController.h; sourceTree = "<group>"; };
 		C0195851214F8C4F0076729D /* CXCustomUsingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCustomUsingViewController.m; sourceTree = "<group>"; };
 		C0195852214F8C4F0076729D /* CXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarController.m; sourceTree = "<group>"; };
 		C0195854214F8C4F0076729D /* CXAnimatedTransitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAnimatedTransitionsViewController.m; sourceTree = "<group>"; };
 		C0195855214F8C4F0076729D /* CXAnimatedTransitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAnimatedTransitionsViewController.h; sourceTree = "<group>"; };
+		C09CC79D2150FFA0000BFC5F /* CXAnimatedTransitionsNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXAnimatedTransitionsNavigationController.h; sourceTree = "<group>"; };
+		C09CC79E2150FFA0000BFC5F /* CXAnimatedTransitionsNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXAnimatedTransitionsNavigationController.m; sourceTree = "<group>"; };
+		C0A3BF2A2154C5BE00C4C6AF /* CXNavigationGradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXNavigationGradientViewController.h; sourceTree = "<group>"; };
+		C0A3BF2B2154C5BE00C4C6AF /* CXNavigationGradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXNavigationGradientViewController.m; sourceTree = "<group>"; };
+		C0A3BF2D2154CA8F00C4C6AF /* CXGradientOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXGradientOneViewController.h; sourceTree = "<group>"; };
+		C0A3BF2E2154CA8F00C4C6AF /* CXGradientOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXGradientOneViewController.m; sourceTree = "<group>"; };
+		C0A3BF302154CA9E00C4C6AF /* CXGradientTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXGradientTwoViewController.h; sourceTree = "<group>"; };
+		C0A3BF312154CA9E00C4C6AF /* CXGradientTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXGradientTwoViewController.m; sourceTree = "<group>"; };
+		C0A3BF342154CB8400C4C6AF /* CXGradientThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXGradientThreeViewController.h; sourceTree = "<group>"; };
+		C0A3BF352154CB8400C4C6AF /* CXGradientThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXGradientThreeViewController.m; sourceTree = "<group>"; };
+		C0A3BF372154CE6D00C4C6AF /* CXGradientThreeNavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXGradientThreeNavigationView.h; sourceTree = "<group>"; };
+		C0A3BF382154CE6D00C4C6AF /* CXGradientThreeNavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXGradientThreeNavigationView.m; sourceTree = "<group>"; };
+		C0A3BF3B2154D39E00C4C6AF /* CXNavigationImageMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXNavigationImageMoveViewController.h; sourceTree = "<group>"; };
+		C0A3BF3C2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXNavigationImageMoveViewController.m; sourceTree = "<group>"; };
+		C0A3BF3F2154E6F200C4C6AF /* CXTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTestViewController.h; sourceTree = "<group>"; };
+		C0A3BF402154E6F200C4C6AF /* CXTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTestViewController.m; sourceTree = "<group>"; };
+		C0DB406E21534AF7006B49C3 /* CXAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXAnimatedTransitioning.h; sourceTree = "<group>"; };
+		C0DB406F21534AF7006B49C3 /* CXAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXAnimatedTransitioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +137,10 @@
 		C019584B214F8C4F0076729D /* Custom(自定义) */ = {
 			isa = PBXGroup;
 			children = (
-				C019584C214F8C4F0076729D /* CXCustomTwoViewController.m */,
-				C019584D214F8C4F0076729D /* CXCustomOneViewController.m */,
 				C019584E214F8C4F0076729D /* CXCustomUsingViewController.h */,
-				C019584F214F8C4F0076729D /* CXCustomTwoViewController.h */,
-				C0195850214F8C4F0076729D /* CXCustomOneViewController.h */,
 				C0195851214F8C4F0076729D /* CXCustomUsingViewController.m */,
+				C0A3BF332154CB1E00C4C6AF /* Gradient(渐变) */,
+				C0A3BF3E2154D42500C4C6AF /* MoveImage(图片移动) */,
 			);
 			path = "Custom(自定义)";
 			sourceTree = "<group>";
@@ -129,10 +148,50 @@
 		C0195853214F8C4F0076729D /* Transition(转场) */ = {
 			isa = PBXGroup;
 			children = (
-				C0195854214F8C4F0076729D /* CXAnimatedTransitionsViewController.m */,
+				C0DB407121534AFC006B49C3 /* 动画类 */,
+				C09CC79D2150FFA0000BFC5F /* CXAnimatedTransitionsNavigationController.h */,
+				C09CC79E2150FFA0000BFC5F /* CXAnimatedTransitionsNavigationController.m */,
 				C0195855214F8C4F0076729D /* CXAnimatedTransitionsViewController.h */,
+				C0195854214F8C4F0076729D /* CXAnimatedTransitionsViewController.m */,
+				C0A3BF3F2154E6F200C4C6AF /* CXTestViewController.h */,
+				C0A3BF402154E6F200C4C6AF /* CXTestViewController.m */,
 			);
 			path = "Transition(转场)";
+			sourceTree = "<group>";
+		};
+		C0A3BF332154CB1E00C4C6AF /* Gradient(渐变) */ = {
+			isa = PBXGroup;
+			children = (
+				C0A3BF2A2154C5BE00C4C6AF /* CXNavigationGradientViewController.h */,
+				C0A3BF2B2154C5BE00C4C6AF /* CXNavigationGradientViewController.m */,
+				C0A3BF2D2154CA8F00C4C6AF /* CXGradientOneViewController.h */,
+				C0A3BF2E2154CA8F00C4C6AF /* CXGradientOneViewController.m */,
+				C0A3BF302154CA9E00C4C6AF /* CXGradientTwoViewController.h */,
+				C0A3BF312154CA9E00C4C6AF /* CXGradientTwoViewController.m */,
+				C0A3BF342154CB8400C4C6AF /* CXGradientThreeViewController.h */,
+				C0A3BF352154CB8400C4C6AF /* CXGradientThreeViewController.m */,
+				C0A3BF372154CE6D00C4C6AF /* CXGradientThreeNavigationView.h */,
+				C0A3BF382154CE6D00C4C6AF /* CXGradientThreeNavigationView.m */,
+			);
+			path = "Gradient(渐变)";
+			sourceTree = "<group>";
+		};
+		C0A3BF3E2154D42500C4C6AF /* MoveImage(图片移动) */ = {
+			isa = PBXGroup;
+			children = (
+				C0A3BF3B2154D39E00C4C6AF /* CXNavigationImageMoveViewController.h */,
+				C0A3BF3C2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m */,
+			);
+			path = "MoveImage(图片移动)";
+			sourceTree = "<group>";
+		};
+		C0DB407121534AFC006B49C3 /* 动画类 */ = {
+			isa = PBXGroup;
+			children = (
+				C0DB406E21534AF7006B49C3 /* CXAnimatedTransitioning.h */,
+				C0DB406F21534AF7006B49C3 /* CXAnimatedTransitioning.m */,
+			);
+			path = "动画类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,13 +266,20 @@
 				C019585B214F8C4F0076729D /* CXCustomUsingViewController.m in Sources */,
 				C019585D214F8C4F0076729D /* CXAnimatedTransitionsViewController.m in Sources */,
 				C0195838214F84C90076729D /* main.m in Sources */,
-				C0195859214F8C4F0076729D /* CXCustomTwoViewController.m in Sources */,
 				C0195856214F8C4F0076729D /* UIView+Extension.m in Sources */,
+				C0A3BF412154E6F200C4C6AF /* CXTestViewController.m in Sources */,
 				C0195858214F8C4F0076729D /* CXBaseNavigationController.m in Sources */,
-				C019585A214F8C4F0076729D /* CXCustomOneViewController.m in Sources */,
+				C0A3BF392154CE6D00C4C6AF /* CXGradientThreeNavigationView.m in Sources */,
+				C0A3BF3D2154D39E00C4C6AF /* CXNavigationImageMoveViewController.m in Sources */,
+				C09CC79F2150FFA0000BFC5F /* CXAnimatedTransitionsNavigationController.m in Sources */,
 				C0195857214F8C4F0076729D /* CXBaseUsingViewController.m in Sources */,
 				C019585C214F8C4F0076729D /* CXTabBarController.m in Sources */,
+				C0A3BF362154CB8400C4C6AF /* CXGradientThreeViewController.m in Sources */,
+				C0A3BF322154CA9E00C4C6AF /* CXGradientTwoViewController.m in Sources */,
+				C0A3BF2F2154CA8F00C4C6AF /* CXGradientOneViewController.m in Sources */,
 				C019582A214F84C80076729D /* AppDelegate.m in Sources */,
+				C0A3BF2C2154C5BE00C4C6AF /* CXNavigationGradientViewController.m in Sources */,
+				C0DB407021534AF7006B49C3 /* CXAnimatedTransitioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
