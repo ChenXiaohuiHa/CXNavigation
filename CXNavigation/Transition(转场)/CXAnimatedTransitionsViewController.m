@@ -65,8 +65,6 @@
     //
     CXTestViewController *vc = [CXTestViewController new];
     
-    vc.hidesBottomBarWhenPushed = YES;
-    
     
     [nvc pushViewController:vc animated:YES];
 }
